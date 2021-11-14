@@ -1,2 +1,2 @@
 # kubernetes
-* This repo contains almost all the detail of using Kubernetes in practice
+* This repository contains almost all the detail of using Kubernetes in practice
