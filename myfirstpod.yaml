@@ -6,6 +6,6 @@ metadata:
 spec:
   containers:
   - name: container1
-    image: aamirpinger/helloworld:latest
+    image: alihasanahmedkhan/helloworld:latest
     ports:
     - containerPort: 80

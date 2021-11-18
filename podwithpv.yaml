@@ -9,7 +9,7 @@ spec:
       claimName: pvc
   containers:
   - name: container1
-    image: aamirpinger/logfile_nodejs
+    image: alihasanahmedkhan/logfile_nodejs
     volumeMounts:
     - name: pv-vol
       mountPath: /data

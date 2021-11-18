@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: container1
-    image: aamirpinger/hi:latest
+    image: alihasanahmedkhan/hi:latest
     ports:
     - containerPort: 80
     livenessProbe:

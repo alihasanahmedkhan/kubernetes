@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: container-rp-witherror
-    image: aamirpinger/helloworld:latest
+    image: alihasanahmedkhan/helloworld:latest
     ports:
     - containerPort: 80
     readinessProbe:

@@ -8,7 +8,7 @@ spec:
     emptyDir: {}
   containers:
   - name: container1
-    image: aamirpinger/logfile_nodejs
+    image: alihasanahmedkhan/logfile_nodejs
     ports:
     - containerPort: 8080
     volumeMounts:

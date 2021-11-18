@@ -7,6 +7,6 @@ spec:
     typeofdisk: ssd
   containers:
     - name: c1
-      image: aamirpinger/flag:latest
+      image: alihasanahmedkhan/flag:latest
       ports:
       - containerPort: 80
