@@ -1,4 +1,0 @@
-## Configure worker node on your Laptop:
-```
-minikube start
-```
