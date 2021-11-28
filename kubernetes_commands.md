@@ -1,7 +1,7 @@
 # Required tools for running K8's:
-### Docker
-### Minikube
-### Kubernetes client (kubectl)
+* Docker
+* Minikube
+* Kubernetes client (kubectl)
 
 
 # To start kubernetes cluster using minikube
