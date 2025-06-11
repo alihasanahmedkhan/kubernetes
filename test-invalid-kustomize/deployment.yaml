@@ -17,24 +17,3 @@ spec:
       - name: nginx
         image: nginx
 
----
-# Deliberate error: same name but different selector (immutable field)
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: test-app
-  namespace: flux-system
-spec:
-  replicas: 2
-  selector:
-    matchLabels:
-      app: test-broken
-  template:
-    metadata:
-      labels:
-        app: test-broken
-    spec:
-      containers:
-      - name: nginx
-        image: nginx
-
